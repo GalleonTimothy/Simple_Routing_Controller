@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+    font-family: "Kode Mono", monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/bg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: calc(100% - 40px);
+    height: 70px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a, .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+nav ul li a:hover {
+    background: #0e123e7a;
+    border-radius: 5px;
+}
+
+nav ul li .active {
+    background: #0e123e7a;
+    border-radius: 5px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.411);
+    padding: 70px 80px 20px;
+    overflow: auto;
+}
+
+.about-me {
+    width: 200px;
+    display: flex;
+    color: lightgray;
+    gap: 10px;
+    align-items: center;
+    margin: 50px 0 20px 0;
+}
+
+.about-me .horizontal {
+    width: 100px;
+}
+
+.about-me .horizontal hr {
+    border: 1px solid rgba(211, 211, 211, 0.678);
+}
+
+
+
+.about-info {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.about-info img {
+    width: 350px;
+    height: auto;
+}
+
+.info-text {
+    width: calc(100% - 380px);
+    background: rgba(0, 0, 0, 0.711);
+    height: auto;
+    padding: 20px;
+}
+
+
+.header {
+    color: #00FF00;
+    font-weight: 700;
+}
+
+.header span {
+    font-size: 10pt !important;
+    color: white;
+    font-weight: 200;
+}
+
+.personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.personal-details span {
+    width: 50%;
+    font-size: 10pt;
+    font-weight: 100 !important;
+    margin-bottom: 5px;
+}
+
+.personal-details .arrow-left {
+    font-weight: bold;
+    color: #00FF00;
+}
+
+
+.about-info p {
+    margin-top: 50px;
+    color: white;
+}
+
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.interest-box {
+    width: calc(25% - 8px);
+    height: 50px;
+    background: rgba(43, 43, 43, 0.711);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: white;
+    gap: 10px;
+}
+
+.movie, .internet, .music, .games, .cycling, .alcohol, .drugs {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 15pt;
+    background: black;
+
+}
+
+.interest-box .movie {
+    background: black;
+    color: white;
+}
+
+.interest-box .internet {
+    color: #00FF00;
+}
+
+.interest-box .music {
+    color: #4CC552;
+}
+
+.interest-box .games {
+    color: #15317E;
+}
+
+.interest-box .cycling {
+    color: #357EC7;
+}
+
+.interest-box .alcohol {
+    color: purple;
+}
+
+.interest-box .drugs {
+    color: white;
+}
+
+blockquote{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+}

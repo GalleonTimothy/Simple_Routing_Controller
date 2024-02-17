@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="{{ url('css/main.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Welcome</title>
 </head>
 <body>
@@ -37,6 +38,10 @@
             <div class="title-section">
             <div class="title">
                 Hi There! <br> I'm Timothy Galleon <br> <span>Web Developer</span>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/timmy.galleon" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.tiktok.com/@t1mo_thyy?_t=8jxTV0YMKOo&_r=1" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                </div>
             </div>
             <div class="img-box">
                 <img src="{{ asset('assets/profile.jpg') }}" alt="Example Image">
